@@ -4,7 +4,7 @@
 }
 .img-brand {
     height: 58px;
-    image-rendering: pixelated;
+    image-rendering: pixelated !important;
     margin-left: 30px;
 }
 .navbar-brand {
