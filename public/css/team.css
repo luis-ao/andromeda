@@ -1,0 +1,82 @@
+
+.blanco-y-negro {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spaceship{
+    background-image: url('../assets/img/team/others/spaceship.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.folder{
+    background-image: url('../assets/img/team/others/folder.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hoja{
+    background-image: url('../assets/img/team/others/paper.webp');
+    background-size: 100%;
+    padding: 10px;
+    transform: rotate(5deg);
+    box-shadow: -4px 4px 5px black;
+    
+}
+
+.hoja > ul {
+    padding: 0px !important;
+}
+
+.parpadeo-a{
+    border: 8px ridge #9C8AFF !important;
+}
+
+.parpadeo-b{
+    border: 8px groove #FF3575 !important;
+}
+
+.imagen-selector{
+    border: 8px solid #FF3575;
+}
+
+.desarrollador{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+    .foto-principal {
+        width: 100%;
+    }
+    .hoja{
+        margin: 0px;
+    }
+    .pregunta{
+        display: none;
+        visibility: hidden;
+    }
+    .respuesta{
+        padding-bottom: 15px;
+        text-align: left;
+    }
+    
+}
+
+@media (min-width: 577px) {
+    .foto-principal {
+       height: 100%;
+    }
+    .hoja{
+        margin: 50px;
+    }
+}

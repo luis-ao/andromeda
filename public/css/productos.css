@@ -1,0 +1,46 @@
+.producttitle {
+    height: 10rem;
+    background-image: url(../assets/img/galaxia_pixelart.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+/*se movio al estilo de cartas.css porque era una carta*/
+
+.precio-texto {
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #ede5f1;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.nombre-producto-texto {
+    font-weight: 800;
+    font-size: 1.17em;
+    font-weight: bolder;
+    color: #ede5f1;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.precio-numero{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagen-producto{
+    width: 100%;
+}

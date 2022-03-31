@@ -1,0 +1,31 @@
+/* Para que no moleste */
+.card{
+    background-color: transparent !important;
+} 
+/* El color del header de una carta que propuso  desde figma */
+.card-header, .box-color{
+    background-color: #3d1572;
+}
+/* El color del cuerpo de una carta que propuso Santiago */
+.card-body{
+    background: linear-gradient(180deg, #c04bf280 28.33%, #6232a680 71.67%);
+}
+
+.fondo-carrito, .cartaproductos, .carta-productos, .comentario-texto {
+    background-color: #011640;
+}
+
+.fondo-carrito, .cartaproductos, .carta-productos, .comentario-texto {
+    border: 2px solid #9C8AFF;
+}
+
+.cartaproductos, .carta-productos, .comentario-texto {
+    border-radius: 8px;
+}
+
+/* wicho */
+.carta-productos, .comentario-texto {
+    box-shadow: 0px 0px 8px #9C8AFF;
+    border-radius: 8px;
+}
+

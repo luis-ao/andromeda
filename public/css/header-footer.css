@@ -1,0 +1,208 @@
+/* HEADER */
+.bg-dark {
+    background: linear-gradient(0deg, #ffffff00, #0f1e76) !important;
+}
+.img-brand {
+    height: 58px;
+    image-rendering: pixelated;
+    margin-left: 30px;
+}
+.navbar-brand {
+    margin: 0px !important;
+}
+.icon-nav {
+    height: 42px;
+    image-rendering: pixelated;
+}
+.dropdown-item {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: white !important;
+}
+.dropdown-item:hover {
+    font-weight: 900;
+    color: blue !important;
+}
+.dropdown-menu {
+    background: #0f1e76 !important;
+    box-shadow: 8px 10px 20px #0f1e76;
+}
+.textoMenu{
+    padding: 10px 24px;
+}
+.textoMenu a{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 26px;
+    margin-right: 40px;
+}
+
+/* FOOTER */
+.color-footer{
+    background-color: #0f1e76;
+}
+.img-footer2{
+    width: 100%;
+    opacity: 0%;
+}
+.img-footer{
+    background-image: url(../assets/img/planeta-pixelart.webp);
+    background-size: cover;
+    background-position: top;
+    image-rendering: pixelated;
+}
+.logo-footer{
+    width: 100%;
+    border-bottom: 2px dashed #FF3575;
+    padding-bottom: 6px;
+    image-rendering: pixelated;
+}
+.op-andromeda{
+    margin-top: 40px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.rrss-icon{
+    width: 42px;
+    margin-top: 24px;
+    filter: grayscale(30%);
+    image-rendering: pixelated;
+}
+.fx-zoom{
+    display: block;
+    transform: scale(1);
+    z-index: 1;
+    transition: .4s;
+}
+.fx-zoom:hover{
+    transform: scale(1.2);
+    z-index: 1;
+    transition: 1s;
+}
+.titulo-listaFooter{
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 38px;
+    letter-spacing: 1px;
+    text-shadow: -4px 4px #FF3575;
+}
+.lista-footer li{
+    list-style-image: url(../assets/img/icons/checklist2.webp);
+    margin-left: 20px;
+    image-rendering: pixelated;
+}
+.lista-footer li a{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.footer-tel li{
+    list-style-image: url(../assets/img/plantilla-icons/telefono.webp);
+    image-rendering: pixelated;
+}
+.footer-tel li a{
+    font-weight: 500;
+    font-size: 28px;
+    text-align: end;
+    letter-spacing: 3px;
+    color: white;
+}
+.footer-email li{
+    list-style-image: url(../assets/img/plantilla-icons/carta-color.webp);
+    image-rendering: pixelated;
+}
+.footer-email li a{
+    font-weight: 500;
+    font-size: 28px;
+    text-align: end;
+    letter-spacing: 1px;
+    color: white;
+}
+
+@media screen and (max-width: 1600px) {
+    .img-brand {
+        height: 44px;
+    }
+    .icon-nav {
+        height: 34px;
+    }
+    .textoMenu{
+        padding: 10px 6px;
+    }
+    .textoMenu a{
+        font-size: 18px;
+    }
+    .dropdown-item {
+        font-size: 16px;
+    }
+    .op-andromeda{
+        font-size: 14px;
+        margin-top: 2px;
+    }
+    .rrss-icon{
+        width: 30px;
+    }
+    .titulo-listaFooter{
+        font-size: 24px;
+        text-shadow: -1px 1px #FF3575;
+    }
+    .lista-footer li a{
+        font-size: 18px;
+    }
+    .footer-tel li a{
+        font-size: 18px;
+    }
+    .footer-email li a{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .img-brand {
+        height: 38px;
+    }
+    .icon-nav {
+        height: 30px;
+    }
+    .textoMenu{
+        padding: 10px 6px;
+    }
+    .textoMenu a{
+        font-size: 14px;
+    }
+    .dropdown-item {
+        font-size: 14px;
+    }
+    .op-andromeda{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .rrss-icon{
+        width: 28px;
+    }
+    .titulo-listaFooter{
+        font-size: 20px;
+        text-shadow: -1px 1px #FF3575;
+    }
+    .lista-footer li a{
+        font-size: 14px;
+    }
+    .footer-tel li a{
+        font-size: 14px;
+    }
+    .footer-email li a{
+        font-size: 14px;
+    }
+}
