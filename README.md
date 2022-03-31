@@ -1,5 +1,5 @@
 # Operacion_Andromeda
-https://santiagougc07.github.io/Operacion_Andromeda/
+https://luis-ao.github.io/andromeda/
 
 # Team
 Daniel Nava Garcia <br />
