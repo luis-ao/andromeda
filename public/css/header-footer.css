@@ -29,7 +29,8 @@
 }
 .dropdown-menu {
     background: #0f1e76 !important;
-    box-shadow: 8px 10px 20px #0f1e76;
+    border: 2px groove #0f1e76;
+    box-shadow: 0px 0px 20px #0f1e76;
 }
 .textoMenu{
     padding: 10px 24px;
@@ -42,6 +43,11 @@
     font-weight: 800;
     font-size: 26px;
     margin-right: 40px;
+}
+.texto-hover:hover{
+    transition: all 0.2s ease-in-out;
+    color: #FF3575 !important;
+    text-decoration: none;
 }
 
 /* FOOTER */

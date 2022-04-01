@@ -5,11 +5,10 @@
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
-
 body{
     background-color: #140714;
     background-image: url(../assets/img/resources/background.webp);
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
 }
 
