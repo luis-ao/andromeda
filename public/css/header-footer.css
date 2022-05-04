@@ -3,12 +3,8 @@
     background: linear-gradient(0deg, #ffffff00, #0f1e76) !important;
 }
 .img-brand {
-    height: 58px;
-    image-rendering: pixelated !important;
-    margin-left: 30px;
-}
-.navbar-brand {
-    margin: 0px !important;
+    height: 66px;
+    image-rendering: pixelated;
 }
 .icon-nav {
     height: 42px;
@@ -33,7 +29,7 @@
     box-shadow: 0px 0px 20px #0f1e76;
 }
 .textoMenu{
-    padding: 10px 24px;
+    padding: 10px 6px;
 }
 .textoMenu a{
     font-family: 'Montserrat', sans-serif;
@@ -41,7 +37,7 @@
     color: white;
     letter-spacing: 2px;
     font-weight: 800;
-    font-size: 26px;
+    font-size: 24px;
     margin-right: 40px;
 }
 .texto-hover:hover{
@@ -74,7 +70,7 @@
     margin-top: 40px;
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     letter-spacing: 4px;
     text-align: center;
 }
@@ -110,7 +106,7 @@
 }
 .lista-footer li a{
     color: white;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -120,7 +116,7 @@
 }
 .footer-tel li a{
     font-weight: 500;
-    font-size: 28px;
+    font-size: 24px;
     text-align: end;
     letter-spacing: 3px;
     color: white;
@@ -131,84 +127,145 @@
 }
 .footer-email li a{
     font-weight: 500;
-    font-size: 28px;
+    font-size: 24px;
     text-align: end;
     letter-spacing: 1px;
     color: white;
 }
 
-@media screen and (max-width: 1600px) {
+
+
+
+
+
+
+
+
+
+
+/*********************
+        LAPTOP
+____________________*/
+@media screen and (max-width: 1366px){ 
+.img-brand {
+    height: 54px;
+}
+
+.icon-nav {
+    height: 30px;
+}
+.dropdown-item {
+    font-size: 16px;
+}
+.textoMenu a{
+    font-size: 20px;
+}
+
+/* FOOTER */
+.op-andromeda{
+    font-size: 14px;
+}
+.rrss-icon{
+    width: 38px;
+}
+.titulo-listaFooter{
+    font-size: 38px;
+}
+.lista-footer li a{
+    font-size: 20px;
+}
+.footer-tel li a{
+    font-size: 20px;
+}
+.footer-email li a{
+    font-size: 20px;
+}
+}
+
+
+/*********************
+        TABLET
+____________________*/
+@media screen and (max-width: 966px){
     .img-brand {
         height: 44px;
     }
+    
     .icon-nav {
-        height: 34px;
-    }
-    .textoMenu{
-        padding: 10px 6px;
-    }
-    .textoMenu a{
-        font-size: 18px;
+        height: 26px;
     }
     .dropdown-item {
+        font-size: 14px;
+    }
+    .textoMenu a{
         font-size: 16px;
     }
-    .op-andromeda{
-        font-size: 14px;
-        margin-top: 2px;
-    }
-    .rrss-icon{
-        width: 30px;
-    }
-    .titulo-listaFooter{
-        font-size: 24px;
-        text-shadow: -1px 1px #FF3575;
-    }
-    .lista-footer li a{
-        font-size: 18px;
-    }
-    .footer-tel li a{
-        font-size: 18px;
-    }
-    .footer-email li a{
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 990px) {
-    .img-brand {
-        height: 38px;
-    }
-    .icon-nav {
-        height: 30px;
-    }
-    .textoMenu{
-        padding: 10px 6px;
-    }
-    .textoMenu a{
-        font-size: 14px;
-    }
-    .dropdown-item {
-        font-size: 14px;
-    }
+    
+    /* FOOTER */
     .op-andromeda{
         font-size: 10px;
         letter-spacing: 2px;
     }
     .rrss-icon{
-        width: 28px;
+        width: 18px;
     }
     .titulo-listaFooter{
-        font-size: 20px;
-        text-shadow: -1px 1px #FF3575;
+        font-size: 38px;
     }
     .lista-footer li a{
-        font-size: 14px;
+        font-size: 11px;
+        letter-spacing: 0px;
     }
     .footer-tel li a{
-        font-size: 14px;
+        font-size: 11px;
     }
     .footer-email li a{
+        font-size: 11px;
+    }
+}
+
+
+
+
+
+
+/*********************
+        PHONE
+____________________*/
+@media screen and (max-width: 500px) {
+    .img-brand {
+        height: 44px;
+    }
+    
+    .icon-nav {
+        height: 26px;
+    }
+    .dropdown-item {
         font-size: 14px;
+    }
+    .textoMenu a{
+        font-size: 16px;
+    }
+    
+    /* FOOTER */
+    .op-andromeda{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .rrss-icon{
+        width: 18px;
+    }
+    .titulo-listaFooter{
+        font-size: 38px;
+    }
+    .lista-footer li a{
+        font-size: 11px;
+        letter-spacing: 0px;
+    }
+    .footer-tel li a{
+        font-size: 11px;
+    }
+    .footer-email li a{
+        font-size: 11px;
     }
 }

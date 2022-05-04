@@ -19,7 +19,7 @@ body{
 
 /* SCROLLBAR */
 ::-webkit-scrollbar{
-    width: 12px;
+    width: 20px;
 } 
 ::-webkit-scrollbar-thumb{
     background: linear-gradient(#FF3575, #9C8AFF);
@@ -37,26 +37,26 @@ body{
 h1 {
     font-family: 'Orbitron', sans-serif;
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 70px;
     letter-spacing: 1px;
     -webkit-text-stroke: .5px #011640; 
     text-shadow: -3px 4px #FF3575;
 }
 .precio-normal{
-    font-weight: 800;
-    font-size: 1rem;
+    font-weight: 700;
+    font-size: 28px;
     text-decoration:line-through;
-    color: #A8A8A8;
+    color: #b7b7b7;
     margin-bottom: -10px;
-    margin-top: 30px;
+    margin-top: 34px;
 }
 .precio-oferta{
     font-weight: 800;
-    font-size: 2.2rem;
+    font-size: 60px;
 }
 .mensualidad{
-    font-weight: 500;
-    font-size: .9rem;
+    font-weight: 600;
+    font-size: 24px;
     letter-spacing: 1px;
 }
 
@@ -72,7 +72,7 @@ h1 {
     border-radius: 7px;
     cursor: pointer;
     font-weight: 800;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     letter-spacing: 1px;
     margin-top: 20px;
     position: relative;
@@ -112,7 +112,7 @@ h1 {
     border-radius: 7px;
     cursor: pointer;
     font-weight: 800;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     letter-spacing: 1px;
     margin-top: 20px;
     position: relative; 
@@ -131,7 +131,7 @@ h1 {
     background-color: #FF3575;
     background-image: linear-gradient(225deg, #FF3575 0%, #7500fa 50%, #1100ff 100%);
     z-index: -1;
-    transition: transform 0.5s ease; 
+    transition: transform 0.5s ease;
 }
 .btn-agregar:hover{
     transform: translate(0,-6px);
@@ -143,37 +143,39 @@ h1 {
  /* CARACTERISTICAS */
  h4{
     font-weight: 800;
-    font-size: 1.2rem;
+    font-size: 32px;
     letter-spacing: 1px;
 }
 .descripcion-pc{
-    text-align: justify;
-    font-weight: 400;
-    font-size: .9rem;
-}
-.texto-personalizar{
-    font-weight: 400;
-    font-size: .8rem;
     letter-spacing: 1px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 19px;
 }
+
 .lista li{
-    font-weight: 300;
-    font-size: .9rem;
-    list-style-image: url(../assets/img/icons/checklist.webp);
+    font-weight: 400;
+    font-size: 19px;
+    list-style-image: url(../assets/img/icons/checklist2.webp);
     image-rendering: pixelated;
 }
 /* RAM - DISCO DURO */
 h3{
     font-weight: 800;
-    font-size: 1rem;
+    font-size: 24px;
     letter-spacing: 1px;
-    margin-bottom: -2px;
+    margin-bottom: 10px;
  }
+ .texto-personalizar{
+    font-weight: 400;
+    font-size: 19px;
+}
 .texto-input{
-    font-weight: 800;
-    font-size: 1rem;
+    font-weight: 700;
+    font-size: 22px;
     letter-spacing: 2px;;
 }
+
 .boton-input{
     accent-color: #FF3575;
 }
@@ -209,26 +211,26 @@ h3{
     display: inline-block;
     border: 2px solid rgb(156, 138, 255);
     border-radius: 8px;
-    padding: 18px 26px 8px 27px;
+    padding: 18px 36px 8px 36px;
     margin-right: 4px;
     margin-bottom: 40px;
 }
 .titulo{
     font-weight: 500;
-    font-size: .9rem;
+    font-size: 22px;
     margin-bottom: 0px;
 }
 .subtitulo{
     font-weight: 300;
-    font-size: .7rem;
+    font-size: 17px;
 }
 /* OTROS PRODUCTOS */
 h2{
     font-family: 'Orbitron', sans-serif;
     font-weight: 900;
-    font-size: 1.9rem;
+    font-size: 48px;
     letter-spacing: 1px;
-    text-shadow: -1px 2px #FF3575;
+    text-shadow: -3px 2px #FF3575;
 }
 .cart-otros-productos{
     width: 248px; 
@@ -247,18 +249,18 @@ h2{
     margin: 0 auto;
 }
 .nombre-otrosProductos{
-    font-weight: 900;
-    font-size: 1rem;
+    font-weight: 700;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 16px;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     overflow: hidden;
 }
 .precio-otrosProductos{
     font-weight: 800;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+    font-size: 26px;
+    padding: 15px 0px;
     letter-spacing: 1px;
     text-align: end;
 }
@@ -305,10 +307,12 @@ h2{
     text-align: end;
     letter-spacing: 1px;
     font-weight: 800;
+    font-size: 24px;
 }
 .enlace-otrosProductos2{
     letter-spacing: 1px;
     font-weight: 800;
+    font-size: 24;
 }
 /* FAQ */
 .color-faq{
@@ -318,6 +322,149 @@ h2{
     background-color: white;
     color: black;
     font-weight: 500;
-    font-size: .9rem;
+    font-size: 20px;
     text-align: justify;
+}
+
+.text-left {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************
+        LAPTOP
+____________________*/
+@media screen and (max-width: 1366px){
+
+    
+    ::-webkit-scrollbar{
+        width: 12px;
+    } 
+    
+    /* NOMBRE - PRECIO */
+    h1 {
+        font-size: 70px;
+    }
+    .precio-normal{
+        font-size: 28px;
+    }
+    .precio-oferta{
+        font-size: 60px;
+    }
+    .mensualidad{
+        font-size: 24px;
+    }
+    
+    /* BOTON COMPRA */
+    .btn-comprar {
+        font-size: 1.4rem;
+    }
+
+    /* BOTON AGREGAR */
+    .btn-agregar {
+        font-size: 1.4rem;
+    }
+    
+     /* CARACTERISTICAS */
+     h4{
+        font-size: 32px;
+    }
+    .descripcion-pc{
+        font-size: 19px;
+    }
+    
+    .lista li{
+        font-size: 19px;
+    }
+    /* RAM - DISCO DURO */
+    h3{
+        font-size: 24px;
+     }
+     .texto-personalizar{
+        font-size: 19px;
+    }
+    .texto-input{
+        font-size: 22px;
+    }
+    .titulo{
+        font-size: 22px;
+    }
+    .subtitulo{
+        font-size: 17px;
+    }
+    /* OTROS PRODUCTOS */
+    h2{
+        
+        font-size: 48px;
+    }
+
+    .nombre-otrosProductos{
+        font-size: 20px;
+    }
+    .precio-otrosProductos{
+        font-size: 26px;
+    }
+    /* BOTON OTROS PRODUCTOS */
+    .btn-agregar2 {
+        font-size: 1rem;
+    }
+
+    .enlace-otrosProductos{
+        font-size: 24px;
+    }
+    .enlace-otrosProductos2{
+        font-size: 24;
+    }
+    /* FAQ */
+    .respuesta-faq{
+        font-size: 20px;
+    }
+    
+    .text-left {
+        font-size: 26px;
+    }
+}
+
+
+/*********************
+        TABLET
+____________________*/
+@media screen and (max-width: 966px){
+
+}
+
+
+
+
+
+
+/*********************
+        PHONE
+____________________*/
+@media screen and (max-width: 500px) {
+
 }
