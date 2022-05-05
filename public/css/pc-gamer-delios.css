@@ -576,6 +576,9 @@ ____________________*/
         PHONE
 ____________________*/
 @media screen and (max-width: 500px) {
+    .col-sm-12{
+        padding-left: 50px;
+    }
     /* NOMBRE - PRECIO */
     h1 {
         margin-top: 40px;
