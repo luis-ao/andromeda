@@ -80,6 +80,7 @@
     margin-top: 24px;
     filter: grayscale(30%);
     image-rendering: pixelated;
+    cursor: pointer;
 }
 .fx-zoom{
     display: block;
